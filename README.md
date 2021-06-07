@@ -16,5 +16,13 @@ E finalmente pode rodar `npm start`. A aplicação será iniciada em http://loca
 aplicação react, quaisquer alterações serão carregadas automaticamente; os erros do Lint serão apresentados \
 no console.
 
-Ah, sim... também por se tratar de uma aplicação react, basta usar  `npm run build` para criar a versão de \
+Ah, sim... também por se tratar de uma aplicação react, basta usar `npm run build` para criar a versão de \
 produção. ;)
+
+
+## O que estamos usando aqui ?
+
+* react
+* redux
+* react-redux
+* react-router-dom
