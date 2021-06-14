@@ -1,0 +1,25 @@
+.frm-login {
+    margin: 0 auto;
+    width: 30%;
+    min-width: 200px;
+    max-width: 300px;
+}
+.frm-login>* {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.frm-login>input {
+    border-width: 0 0 1px 0;
+    font-size: 14px;
+}
+.frm-login>button {
+    border-width: 0;
+    color: white;
+    height: 1.7rem;
+}
+.entrar {
+    background-color: #5B5;
+}
+.cadastrar {
+    background-color: #D55;
+}
