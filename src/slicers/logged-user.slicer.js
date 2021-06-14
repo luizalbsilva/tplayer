@@ -9,13 +9,13 @@ const loggedUserSlice =  createSlice({
     name: 'logged-user',
     initialState: dados,
     reducers: {
-        logIn(state, payload) {
+           logIn(state, {payload}) {
             const data = {jwt: payload};
-            window.localStorage.setItem("loggedUser", data)
+            window.localStorage.setItem("loggedUser", JSON.stringify(data))
             return data;
         }
     }
 });
 
-export const {logIn} = loggedUserSlice;
+export const {logIn} = loggedUserSlice.actions;
 export default loggedUserSlice.reducer;

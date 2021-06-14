@@ -2,6 +2,6 @@ import React from "react";
 
 export default function Cadastro() {
     return (
-        <span>Cadastro funcionando</span>
+        <span>Minha tela de cadastro</span>
     );
 }
