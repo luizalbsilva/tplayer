@@ -1,7 +1,12 @@
 # Taking Player
 
-Este projeto foi desenvolvido como aplicação prática dos ensinamentos ministrados pela Taking Consultoria \
-aos seus consultores alocados na Unicid (capacitação nodejs / React).
+Desenvolvido como 'projeto final' do treinamento de capacitação interna de React / NodeJS, faz parte de 3 projetos, a saber:
+
+- [**Front-End React-Native**](https://github.com/luizalbsilva/tplayer-mb): Aplicação hibrida que tocar os audios disponibilizados.
+- **Front-End Web**: Este projeto. Módulo administrativo, fará o controle do que será 
+  exposto (upload dos audios), sua classificação, e modo de exposição (destaques, etc)
+- [**Back-End: Em NodeJS**](https://github.com/RafaelGSantana/Projeto-Capacitacao-Backend), fornecerá a api que será 
+  consumida pelos dois projetos anteriores.
 
 ## Rodando o programa
 
