@@ -3,7 +3,6 @@ import './App.css';
 import {Route, Switch} from "react-router-dom";
 import Login from "./components/Login";
 import PrivateRoute from "./components/private-route";
-import Cadastro from "./components/Cadastro";
 
 function App() {
   return (
@@ -11,9 +10,6 @@ function App() {
         <Switch>
           <Route path="/login">
             <Login />
-          </Route>
-          <Route path="/cadastrar">
-            <Cadastro />
           </Route>
           <PrivateRoute path="/">
             <header className="App-header">
